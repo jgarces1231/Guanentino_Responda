@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->execute()) {
         echo "<script>
             alert('¡Pregunta registrada correctamente!');
-            window.location.href = 'registrar_opciones.php';
+            window.location.href = 'home.php';
         </script>";
         exit();
     } else {
